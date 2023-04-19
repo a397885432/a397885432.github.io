@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>1</title>
+  <style>
+    .carousel-item .img-fluid {
+      height: 1920px;
+      width: 1080px;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    .carousel-indicators .active {
+      background-color: #ffffff;
+      /* 槓槓顏色 */
+    }
+
+    
+  </style>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+</head>
+
+
+
+<body style="background-color: #7c7979;">
+
+  <header class="header">
+    <nav class="navbar  navbar-expand-md navbar-light fixed-top shadow "
+      style="height: 70px; background-color:#ffffff; ">
+      <p class="text-center h2 m-auto d-block" style="color:#4a3131;"><b>我家的貓會後空翻</b></p>
+
+    </nav>
+  </header>
+
+  <!-- 滑動圖片 -->
+  <main class="container-fluid mt-5 d-flex justify-content-center align-items-center">
+    <div class="row ">
+
+      <!-- 下面的小槓槓 -->
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"
+              style="height: 10px ; width: 60px;"></li>
+
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"
+              style="height: 10px ;width: 60px;"></li>
+
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"
+              style="height: 10px ; width: 60px;"></li>
+
+            <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"
+              style="height: 10px ; width: 60px;"></li>
+
+          </ol>
+
+          <a href="index2.html">
+            <!-- 圖片 -->
+            <div class="carousel-inner">
+              <div class="carousel-item  active" data-bs-interval="500">
+                <img src="img/第一頁/1.jpg" class="img-fluid d-block vh-100" alt="..."
+                  style="width: 70%; height: auto; display: block; margin: 0 auto;">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="img/第一頁/2.jpg" class="img-fluid d-block vh-100" alt="..."
+                  style="width: 70%; height: auto; display: block; margin: 0 auto;">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="img/第一頁/3.jpg" class="img-fluid d-block vh-100" alt="..."
+                  style="width: 70%; height: auto; display: block; margin: 0 auto;">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="500">
+                <img src="img/第一頁/4.jpg" class="img-fluid d-block vh-100" alt="..."
+                  style="width: 70%; height: auto; display: block; margin: 0 auto;">
+              </div>
+
+            </div>
+          </a>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
